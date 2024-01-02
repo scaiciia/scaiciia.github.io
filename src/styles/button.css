@@ -1,0 +1,7 @@
+.Button {
+    margin: 7.5px;
+}
+
+.Button>svg {
+    cursor: pointer;
+}

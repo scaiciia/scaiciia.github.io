@@ -1,0 +1,10 @@
+.Contacto {
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .Contacto {
+        height: 100vh;
+        padding-top: 250px;
+    }
+}

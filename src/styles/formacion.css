@@ -1,0 +1,15 @@
+.Formacion {
+    height: 100vh;
+}
+
+.EducacionH1 {
+    text-align: left;
+    color: #8EA7E9;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .Formacion {
+        padding-top: 250px;
+    }
+}

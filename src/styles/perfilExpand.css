@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .PerfilExpand {
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        border-right: none;
+    }
+}

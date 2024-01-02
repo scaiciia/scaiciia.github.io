@@ -1,0 +1,14 @@
+.ContenedorSkills {
+    border-bottom: 1px solid #8EA7E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 110px;
+}
+
+.progress {
+    --bs-progress-bar-bg: #8EA7E9;
+    width: 232px;
+    height: 10px;
+}

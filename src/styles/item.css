@@ -1,0 +1,36 @@
+.Item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ItemHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.ItemHeader>h1 {
+    font-size: 66%;
+}
+
+.ItemHeader>svg {
+    transform: translate(-50%, 2%);
+}
+
+.ItemBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Inciso {
+    margin-left: 4vh;
+    margin-bottom: 4vh;
+}
+
+.Inciso>span {
+    color: black;
+    margin-left: 1vh;
+    font-size: 66%;
+    font-weight: 300;
+}

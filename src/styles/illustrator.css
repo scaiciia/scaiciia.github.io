@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+
+    .scrolling-illustrator {
+        transition:
+            height 0.5s ease-out,
+            width 0.5s ease-out;
+    }
+
+    .scrolled-illustrator {
+        height: 235px;
+        width: 159.46px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Illustrator>svg {
+        height: 237.5px;
+        width: 350px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

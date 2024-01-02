@@ -1,0 +1,29 @@
+.Exp {
+    height: 100vh;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .Exp {
+        padding-top: 250px;
+    }
+
+    .scrolling-exp {
+        transition:
+            margin-top 0.5s ease-out;
+    }
+
+    .scrolled-exp {
+        margin-top: 81vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .scrolled-exp {
+        margin-top: 75vh;
+    }
+}

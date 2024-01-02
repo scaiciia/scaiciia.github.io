@@ -1,0 +1,8 @@
+.Idioma {
+    margin-bottom: 5px;
+}
+
+.Idioma>span {
+    color: black;
+    font-weight: 300;
+}

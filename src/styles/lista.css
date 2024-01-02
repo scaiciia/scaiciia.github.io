@@ -1,0 +1,28 @@
+.Lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.Barra {
+    border-right: 1px solid black;
+    height: 85vh;
+    margin-left: 10px;
+}
+
+.Cuerpo {
+    padding-top: 5vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .Barra {
+        height: 60vh;
+    }
+
+    .Cuerpo {
+        height: 61vh;
+    }
+}

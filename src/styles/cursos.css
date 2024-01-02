@@ -1,0 +1,15 @@
+.Cursos {
+    height: 100vh;
+}
+
+.CursosH1 {
+    text-align: left;
+    color: #8EA7E9;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .Cursos {
+        padding-top: 250px;
+    }
+}

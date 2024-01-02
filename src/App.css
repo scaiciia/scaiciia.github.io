@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background-color: white;
 }
 
 .App-logo {
@@ -28,11 +31,34 @@
   color: #61dafb;
 }
 
+.navbar {
+  align-items: start;
+  justify-content: flex-end;
+  border-left: 2px solid #8EA7E9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+
+  .scrolling-app {
+    transition:
+      margin-top 0.3s ease
+  }
+
+  .scrolled-app {
+    margin-top: 250px;
   }
 }
