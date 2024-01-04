@@ -4,7 +4,7 @@ function Titulo() {
     return (
         <div className="Titulo">
             <h1>Hi! I'm <span>Santiago Caiciia Massello</span></h1>
-            <h2>Full Stack Developer Junior</h2>
+            <h2>Full Stack Developer Trainee</h2>
         </div>
     );
 }
