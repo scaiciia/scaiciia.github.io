@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import CollapseButton from "./collapseButton";
-import Offcanvas from 'react-bootstrap/Offcanvas'
 import PerfilButton from "./perfilButton";
 import '../styles/perfil.css'
 import PerfilExpand from "./perfilExpand";
+import { Drawer } from "@mui/material";
 
 function Perfil() {
 
@@ -16,14 +16,13 @@ function Perfil() {
         <div className="Perfil mb-auto">
             <PerfilButton onAbrir={abrir}></PerfilButton>
 
-            <Offcanvas className='PerfilExpand' show={estado} onhide={cerrar} responsive="md">
-                <Offcanvas.Header>
-                    <CollapseButton onCerrar={cerrar}></CollapseButton>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                    <PerfilExpand></PerfilExpand>
-                </Offcanvas.Body>
-            </Offcanvas>
+            <Drawer variant="temporary" open={estado} onClose={cerrar} ModalProps={{ keepMounted: true, }} sx={{ display: { xs: 'block', sm: 'none' }, width: '250px' }}>
+                <CollapseButton onCerrar={cerrar}></CollapseButton>
+                <PerfilExpand></PerfilExpand>
+            </Drawer>
+            <Drawer variant="permanent" sx={{ display: { xs: 'none', sm: 'block' } }} PaperProps={{ sx: { borderRight: '2px solid #8EA7E9' } }}>
+                <PerfilExpand></PerfilExpand>
+            </Drawer>
         </div>
     );
 }

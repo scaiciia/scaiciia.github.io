@@ -1,25 +1,18 @@
 .Perfil {
     width: 30px;
     border-right: 2px solid #8EA7E9;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 25px;
     position: fixed;
     top: 0;
     left: 1;
     z-index: 2;
 }
 
-.offcanvas-header {
-    justify-content: flex-end;
-}
-
 @media (min-width: 768px) {
-    .Perfil {
-        width: 250px
-    }
 
     .PerfilExpand {
         display: flex;

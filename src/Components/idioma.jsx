@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import '../styles/idioma.css'
+import ProgressBarWithLabel from './ProgressBarWithLabel';
 
 function Idioma(props) {
     const [dictionary] = useState({
@@ -21,7 +21,7 @@ function Idioma(props) {
     return (
         <div className='Idioma'>
             <span>{props.nombre}</span>
-            <ProgressBar now={valorActual} label={clave} />
+            <ProgressBarWithLabel now={valorActual} label={clave} />
         </div>
     );
 }
