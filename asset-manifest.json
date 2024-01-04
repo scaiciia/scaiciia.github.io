@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.686d3ba9.css",
-    "main.js": "/static/js/main.d3a8edf3.js",
+    "main.js": "/static/js/main.0abace49.js",
     "static/js/787.1ff54d3c.chunk.js": "/static/js/787.1ff54d3c.chunk.js",
     "static/media/SANTIAGO CAICIIA MASSELLO.pdf": "/static/media/SANTIAGO CAICIIA MASSELLO.1e8c414d2575bfdc5c9c.pdf",
     "index.html": "/index.html",
     "main.686d3ba9.css.map": "/static/css/main.686d3ba9.css.map",
-    "main.d3a8edf3.js.map": "/static/js/main.d3a8edf3.js.map",
+    "main.0abace49.js.map": "/static/js/main.0abace49.js.map",
     "787.1ff54d3c.chunk.js.map": "/static/js/787.1ff54d3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.686d3ba9.css",
-    "static/js/main.d3a8edf3.js"
+    "static/js/main.0abace49.js"
   ]
 }
